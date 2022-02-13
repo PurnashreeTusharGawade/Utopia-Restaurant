@@ -1,0 +1,291 @@
+body{
+    margin:0;
+    padding:0;
+}
+/* Navigation */
+a
+{
+    text-decoration: none;
+    color: white;
+    transition: all;
+}
+.header
+{
+    display: flex;
+    background-color:black;
+    color:white;
+    padding:0.6em;
+    position:fixed;
+    width:100%;
+}
+.logo
+{
+    width:90%;
+    font-size:2em;
+    font-family: 'Berkshire Swash', cursive;
+    transition:0.5s;
+}
+
+.nav 
+{
+    display: flex;
+}
+.nav-item
+{
+    padding:10px 25px 5px 20px;
+    font-size:1.2em;
+    
+}
+.nav-item:hover{
+    text-shadow:1px 1px 2px rgb(255, 208, 1);
+    font-size:1.25em;
+    cursor:pointer;
+
+}
+/* background cover */
+
+#home{
+    width:100%;
+    height: 90vh;
+    background:url(bgcover.jpg);
+    background-size: cover;
+    border-radius:0 0 7% 7%;
+}
+h1{
+    margin:0;
+    color:white;
+    text-align:center;
+    padding-top:30vh;  
+    font-size:8em;
+    font-family: 'Berkshire Swash', cursive;
+    
+}
+
+.textonimg{
+    font-size:2.5em;
+    text-align:center;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.55);
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+.welcome{
+    font-size:2em;
+    /* background-color:black; */
+    font-family:'Berkshire Swash', cursive;
+    
+    padding:80px 0 80px 40px ;
+    /* color:rgb(245, 245, 233); */
+    text-align: center;
+}
+.welcome p{
+    font-size:0.8em;
+    font-weight:500;
+    padding:0 40px;
+    font-family: 'Gideon Roman', cursive;
+}
+
+.menu{
+    background-color:#e29f3a;
+    padding:30px 0 40px 0;
+}
+.menu h2{
+    text-align:center;
+    font-size:3em;
+    font-family:'Berkshire Swash', cursive;
+    
+}
+.menu .intro{
+    text-align:center;
+    font-size:1.4em;
+    font-family: 'Gideon Roman', cursive;
+}
+.starters{
+    background-color:#0000005b;
+    margin: 30px;
+    padding: 20px 10px 30px 10px;
+}
+
+.starters h3{
+    text-align:center;
+    font-size:2em;
+    font-family: 'Berkshire Swash', cursive;
+    text-decoration: underline;
+}
+
+
+img{
+    width:300px;
+}
+
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    padding:0 0 30px 0;
+    flex-wrap: wrap;
+}
+.card p{
+    width:fit-content;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(245, 222, 179, 0.466);
+    padding:5px;
+    
+}
+.card:hover{
+    box-shadow:10px 5px 5px black;
+    background-color:#d8973c;
+    cursor:pointer;  
+}
+.main-course{
+    background-color:#0000005b;
+    margin: 30px;
+    padding: 20px 10px 30px 10px;
+}
+.main-course h3{
+    text-align:center;
+    font-size:2em;
+    font-family: 'Berkshire Swash', cursive;
+    text-decoration: underline;
+}
+h4{
+    text-align:center;
+    font-size:2em;
+    font-family: 'Redressed', cursive;
+    text-decoration: underline;
+
+}
+.view-more{display:flex;
+    justify-content: center;
+}
+button{
+    background-color:#772f1a;
+    color:white;
+    font-size:1.2rem;
+   padding: 5px 10px;
+   border:2px solid black;
+}
+button:hover{
+    background-color:#273e47;
+    font-size:1.25rem;
+    cursor:pointer;
+}
+button:active{
+    background-color:#33658a;
+}
+.dessert{background-color:#0000005b;
+    margin: 30px;
+    padding: 20px 10px 30px 10px;
+}
+.dessert h3{
+    text-align:center;
+    font-size:2em;
+    font-family: 'Berkshire Swash', cursive;
+    text-decoration: underline;
+}
+.booking{
+   
+    height:45vh;
+    margin-top:5vh;
+    color:white;
+    font-family:'Berkshire Swash',cursive;
+    font-weight:bold;
+    font-size:10vh;
+    text-align:center;
+    padding-top:15vh;
+    background: url(https://akam.cdn.jdmagicbox.com/images/icontent/booktable/bookatable.jpg) no-repeat;
+    background-size:cover;
+
+    
+}
+.book-now{
+    font-size:5vh;
+    border:none;
+    transition:0.5s;
+}
+.book-now:hover{
+    font-size:5.5vh;
+    box-shadow:3px 3px 7px white;
+    background-color:#d62828;
+}
+.offers{
+    background:url(https://www.xmple.com/wallpaper/gradient-brown-yellow-linear-1920x1080-c2-800000-ffd700-a-90-f-14.svg);
+    background-position:center;
+    margin-top:5vh;
+    background-size:cover;
+    padding: 20px 0 30px 0;
+    display:flex;
+    flex-direction:column;
+    
+}
+.offers h2{
+    text-align:center;
+    font-size:3em;
+    font-family: 'Berkshire Swash', cursive;
+    color:rgb(0, 0, 0);
+}
+.offer-list{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+    
+}
+.offer{
+    padding:30px 40px 0 30px;
+    background-color:#ffffffa2;
+    display:flex;
+    justify-content:space-evenly;
+    width:40%;
+    height:20vh;
+    font-size: 5vh;
+    font-weight:bold;
+    font-family:'Gideon Roman', cursive;
+    margin:20px;
+    ]
+}
+.offer:hover{
+    box-shadow: 10px -10px 5px rgba(10, 0, 0, 0.596);
+    width:41%;
+    height:20.5vh;
+    background-color:#c02222;
+    color:white;
+    cursor:pointer;
+    
+}
+.gallery{
+    padding-bottom:40px;
+}
+.gallery h2{
+    text-align:center;
+    font-size:3em;
+    font-family: 'Berkshire Swash', cursive;
+    color:rgb(0, 0, 0);
+}
+.photo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo:hover{
+    background-color:black;
+    padding:5px;
+    cursor:pointer;
+}
+.contact{
+    height:25vh;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    text-align:center;
+    font-size:1em;
+    padding:10vh;
+}
+.contact a{
+    text-decoration:underline;
+    color:#138be7;
+}
