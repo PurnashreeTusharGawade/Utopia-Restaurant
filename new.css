@@ -360,6 +360,9 @@ button:active{
     
     }
     @media(max-width:445px){
+        .textonimg{
+            font-size:1.5em;
+        }
         .nav{
             display:none;
         }
@@ -374,6 +377,6 @@ button:active{
             margin: 0;
         }
         #home{
-            height:110vh;
+            height:100vh;
         }
     }
