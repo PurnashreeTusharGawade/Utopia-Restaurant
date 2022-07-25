@@ -6,7 +6,7 @@ body{
     margin:0;
     padding:0;
 }
-/* Navigation */
+
 a
 {
     text-decoration: none;
@@ -20,7 +20,7 @@ a
     color:white;
     padding:0.6em;
     position:fixed;
-    width:100%;
+    width:100vw;
 }
 .logo
 {
@@ -199,7 +199,7 @@ button:active{
     color:white;
     font-family:'Berkshire Swash',cursive;
     font-weight:bold;
-    font-size:10vh;
+    font-size:5em;
     text-align:center;
     padding-top:15vh;
     background: url(https://akam.cdn.jdmagicbox.com/images/icontent/booktable/bookatable.jpg) no-repeat;
@@ -251,7 +251,7 @@ button:active{
     font-weight:bold;
     font-family:'Gideon Roman', cursive;
     margin:20px;
-    ]
+    
 }
 .offer:hover{
     box-shadow: 10px -10px 5px rgba(10, 0, 0, 0.596);
@@ -293,3 +293,87 @@ button:active{
     text-decoration:underline;
     color:#138be7;
 }
+@media (max-width:850px){
+    h1{
+        font-size:6em;
+    }
+    .photo{
+        margin:1em;
+    }
+    .card{
+        margin:1em;
+    }
+    body{
+        font-size: 0.85em;
+    }
+    .offer{
+        font-size:1.5em;
+    }
+}
+@media (max-width:694px){
+    .header{
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+        width:100vw;
+    }
+    .nav-item{
+        padding:0 3vw 0 0;
+    }
+    .nav{
+        justify-content:space-between;
+    }
+    h1{
+        font-size:5em;
+    }
+    body{
+        font-size:0.8em;
+    }
+    .textonimg{
+        font-size:1.9em;
+    }
+    .welcome{
+        padding:0.3em;
+        font-size:1.5em;
+    }
+    #home{
+        height:85vh;
+    }
+    button{
+        font-size: 1.2em;
+    }
+    .reservation{
+        font-size:3.5em;
+        }
+    .offer{
+        font-size:1.5em;
+    }
+    .booking{
+        font-size:3em;
+        height:30vh;
+    }
+    .book-now{
+        margin:0.6em;
+        font-size:1 ;
+    }
+    
+    }
+    @media(max-width:445px){
+        .nav{
+            display:none;
+        }
+        .offer-list{
+            flex-direction: column;
+            align-items: center;
+        }
+        .book-now{
+            font-size:0.6em;
+        }
+        .starters,.main-course,.dessert{
+            margin: 0;
+        }
+        #home{
+            height:110vh;
+        }
+    }
